@@ -9,7 +9,7 @@ class DatabaseHelper {
 
   static Database _database; //singleton Database
 
-//table table
+//table name
   String noteTable = 'note_table';
 
   //table columns
