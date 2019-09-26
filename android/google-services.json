@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "267831443698",
+    "firebase_url": "https://alkaida-app.firebaseio.com",
+    "project_id": "alkaida-app",
+    "storage_bucket": "alkaida-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267831443698:android:1ab5b579fbfa72d82bd06b",
+        "android_client_info": {
+          "package_name": "nelly.example.flutter_app2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "267831443698-c1cbb7mg938821qk7h9i6e0sqkvd7sca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb_5O0Wm-NODAxjXq0zUIYgXhyPk1xqbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "267831443698-c1cbb7mg938821qk7h9i6e0sqkvd7sca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

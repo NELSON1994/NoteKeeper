@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
+import 'loginn.dart';
 import 'note_detail.dart';
 
-class LoginPage extends StatelessWidget {
+class RegisterPage extends StatelessWidget {
   final _pinCodeController = TextEditingController();
   final emailController = TextEditingController();
   final nameController = TextEditingController();
@@ -227,6 +228,7 @@ class LoginPage extends StatelessWidget {
             child: RaisedButton.icon(
               onPressed: (){
                 debugPrint("Raised Button here");
+                loginNavigation(context);
               },
               // color: Colors.deepPurple,
               //color:Theme.of(context).primaryColorDark,
@@ -255,8 +257,9 @@ class LoginPage extends StatelessWidget {
         backgroundColor: Colors.blue,
         centerTitle: true,
       ),
-      backgroundColor: Colors.greenAccent,
+      backgroundColor: Colors.lightGreen,
       body: Center(
+
         child: ListView(
           shrinkWrap: true,
           padding: EdgeInsets.only(left: 24.0, right: 24.0),
@@ -299,6 +302,14 @@ class LoginPage extends StatelessWidget {
     Navigator.push(context, MaterialPageRoute(builder:(context){
 
       return NoteDetail(title);
+    } ));
+  }
+
+  void loginNavigation(BuildContext context){
+
+    Navigator.push(context, MaterialPageRoute(builder:(context){
+
+      return LoginPage();
     } ));
   }
 }
