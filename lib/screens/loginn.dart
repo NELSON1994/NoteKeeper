@@ -143,7 +143,7 @@ class LoginPage extends StatelessWidget {
             // Important: Remove any padding from the ListView.
             padding: EdgeInsets.zero,
             children: <Widget>[
-              Container(
+               Container(
               child: DrawerHeader(
                 child: Text('ALKAIDA APPLICATION'
                   , style: TextStyle(fontSize: 25.0,),),
