@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     // TODO: implement build
     return MaterialApp(
       title: 'Alkaida Application',
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,//REMOVE THE DEBUG FROM APP
       theme: ThemeData(
         primarySwatch: Colors.deepPurple
       ),

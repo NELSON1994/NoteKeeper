@@ -94,12 +94,12 @@ class LoginPage extends StatelessWidget {
 
               label: Text(
                 'SIGN IN',
-                textScaleFactor: 1.5,
+                //textScaleFactor: 1.5,
               ),
             ),
           ),
           Container(
-            width: 5.0,
+            width: 3.0,
           ),
           Expanded(
             child: RaisedButton.icon(
@@ -113,7 +113,7 @@ class LoginPage extends StatelessWidget {
               textColor: Theme.of(context).primaryColorLight,
               label: Text(
                 'SIGN UP',
-                textScaleFactor: 1.5,
+                //textScaleFactor: 1.5,
               ),
               icon: Icon(
                   Icons.person_pin
